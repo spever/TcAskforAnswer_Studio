@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- title 的高度 -->
+    <dimen name="top_bar_height">48dp</dimen>
+    <!-- 自定义带消息圆点的控件 -->
+    <dimen name="tc_master_msgbottomsize">40dp</dimen>
+    <dimen name="tc_master_msgtopsize">15dp</dimen>
+
+    <!-- 待回答条目 -->
+    <dimen name="item_circle_size">40dp</dimen>
+    <dimen name="item_bottom_btn_height">40dp</dimen>
+    <dimen name="item_bottom_btn_ivsize">25dp</dimen>
+    <!-- 字体大小 -->
+    <dimen name="tvsize12">12sp</dimen>
+    <dimen name="tvsize13">13sp</dimen>
+    <dimen name="tvsize14">14sp</dimen>
+    <dimen name="tvsize16">16sp</dimen>
+    <dimen name="tvsize15">15sp</dimen>
+    <dimen name="tvsize18">18sp</dimen>
+    <dimen name="tvsize20">20sp</dimen>
+    <dimen name="tvsize22">22sp</dimen>
+    <dimen name="tvsize24">24sp</dimen>
+    <dimen name="tvsize26">26sp</dimen>
+    <dimen name="tvsize40">40sp</dimen>
+    <dimen name="top_title_textsize">20sp</dimen>
+    <dimen name="view_line_rold">1px</dimen>
+
+    <!-- title 的高度2 -->
+    <dimen name="top_bar_height2">45dip</dimen>
+
+    <!-- 技师注册 -->
+
+    <dimen name="back_left">20dip</dimen>
+    <dimen name="regist_margintop">10px</dimen>
+    <dimen name="margin_top">8dip</dimen>
+    <dimen name="margin_top2">10dip</dimen>
+
+    <!-- 我的信息 -->
+    <dimen name="back_size">50dp</dimen>
+    <dimen name="mine_each_top">5dip</dimen>
+    <dimen name="mine_each_top2">10dip</dimen>
+    <dimen name="mine_each_top3">15dip</dimen>
+    <dimen name="mine_user_lay">100dip</dimen>
+    <dimen name="mine_anwser_lay">74dip</dimen>
+    <dimen name="headed_image_width">80dip</dimen>
+    <dimen name="identy_image_width">20dip</dimen>
+    <dimen name="line_top_bottom">10dip</dimen>
+
+    
+    <!-- 免打扰 -->
+    <dimen name="bother_text_left">15dip</dimen>
+    <dimen name="bother_text_right">35dip</dimen>
+    <dimen name="listview_item_headerh">10dp</dimen>
+    <dimen name="listview_item_margin">10dp</dimen>
+    <dimen name="linespacing">2dp</dimen>
+
+    <!-- RadionGroup height -->
+    <dimen name="radiongroup_height">30dp</dimen>
+    <dimen name="pefect_tvh">50dp</dimen>
+    <dimen name="pefect_itemh">60dp</dimen>
+    <dimen name="pefect_ivl">50dp</dimen>
+    <dimen name="pefect_ivrw">60dp</dimen>
+    <dimen name="pefect_ivrh">50dp</dimen>
+    <dimen name="pefect_item_margin">15dp</dimen>
+    <dimen name="edit_padding">5dp</dimen>
+    <dimen name="edit_margin">10dp</dimen>
+    <dimen name="edit_height">120dp</dimen>
+    <dimen name="edit_textmargin">25dp</dimen>
+    <dimen name="image_size">70dp</dimen>
+    
+   	
+    <!--listview  -->
+    <dimen name="common_margin">10dp</dimen>
+    <dimen name="item_margin_top">9dp</dimen>
+    <dimen name="item_margin_left">18dp</dimen>
+
+     <!-- 待回答条目 -->
+    <dimen name="item_circle_size_info">30dp</dimen>
+	
+	<!-- 技师注册 -->
+	
+	<dimen name="btn_margin_top">30dip</dimen>
+	<dimen name="btn_submit_top">25dip</dimen>
+	<dimen name="pading_left">15dip</dimen>
+	<dimen name="pading_left2">10dip</dimen>
+	<dimen name="relate_high">45dip</dimen>
+	<dimen name="relate_high2">35dip</dimen>
+	<dimen name="line_height">0.1dp</dimen>
+	
+	<!-- 22px -->
+	<dimen name="textsize1">11sp</dimen>
+    <!-- 24px -->
+    <dimen name="textsize2">12sp</dimen>
+	<!-- 28px -->
+    <dimen name="textsize3">14sp</dimen>	
+	<!-- 32px -->
+    <dimen name="textsize4">16sp</dimen>
+    <!-- 36px -->
+    <dimen name="textsize5">18sp</dimen>
+    	
+	<dimen name="slidingtabh">48dp</dimen>	
+    <dimen name="msg_margin_top">3dp</dimen>
+	
+    <dimen name="diglog_margin_top">25dp</dimen>
+	<dimen name="diglog_iv_size">70dp</dimen>
+    <dimen name="diglog_cancle_size">25dp</dimen>
+    <dimen name="toast_width">160dp</dimen>
+    <dimen name="toast_height">70dp</dimen>
+    
+    <dimen name="nopicszie">80dp</dimen>
+    <dimen name="toptonopic">20dp</dimen>
+    <dimen name="littlemarintop">4dp</dimen>
+    
+    <dimen name="push_width">320dip</dimen>
+	<dimen name="push_pic_height_width">100dp</dimen>
+	<dimen name="push_title_textsize">20sp</dimen>
+	<dimen name="push_detail_textsize">16sp</dimen>
+	<dimen name="push_button_textsize">18sp</dimen>
+	<dimen name="push_button_height">45dp</dimen>
+	<dimen name="push_iv_width">0.1dp</dimen>
+	<dimen name="pageslideheight">3dp</dimen>
+   <!-- 1.3版本ui 变更-->
+    <dimen name="common_height_300">135dp</dimen>
+    <dimen name="paddingTop_40"> 10dp</dimen>
+    <dimen name="padding_left_120">80dp</dimen>
+</resources>
+

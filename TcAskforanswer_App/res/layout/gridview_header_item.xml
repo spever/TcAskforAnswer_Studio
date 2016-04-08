@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    
+    <TextView android:layout_width="match_parent"
+         android:background="@drawable/label_itme_background"
+        android:layout_height="35dp"
+        android:id="@+id/item_ask_kinds"
+        android:text="汽车维修"
+        android:textColor="@color/textcolor2"
+        android:gravity="center"
+        android:textSize="@dimen/textsize3"
+        />
+
+</LinearLayout>

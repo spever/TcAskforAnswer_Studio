@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+           android:layout_width="match_parent"
+    	   android:layout_height="@dimen/relate_high"
+    	   android:background="@color/background_white"
+           >
+           
+            
+            <TextView  
+                android:id="@+id/tag_name"
+                android:layout_width="wrap_content"
+    	  	    android:layout_height="wrap_content"
+                android:text="漆面保养"
+                android:textSize="@dimen/tvsize16"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/pading_left"
+                />
+            
+            
+            <ImageView 
+                android:id="@+id/select_image"
+                android:layout_width="wrap_content"
+    	  	    android:layout_height="wrap_content"
+                android:src="@drawable/choose_right"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:paddingRight="@dimen/pading_left"
+                />
+            
+            
+           	 
+       </RelativeLayout>
+    
+</LinearLayout>

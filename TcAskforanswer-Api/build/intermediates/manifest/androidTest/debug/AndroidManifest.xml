@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tuanche.api.test" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="14" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.tuanche.api.test"
+        android:targetPackage="com.tuanche.api.test" />
+
+    <activity android:name="com.tuanche.api.widget.shareWidget.ShareToSina" />
+    <activity android:name="com.tuanche.api.widget.shareWidget.ShareToTenXunWeibo" />
+    <activity android:name="com.tuanche.api.widget.shareWidget.ShareToWeiXin" />
+    <activity android:name="com.tuanche.api.widget.shareWidget.ShareEditActivity" />
+    <activity android:name="com.tuanche.api.widget.shareWidget.ShareConfigActivity" />
+    <activity
+        android:name="com.tencent.weibo.sdk.android.component.Authorize"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

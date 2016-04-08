@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/listview_item_margin"
+        android:layout_marginRight="@dimen/listview_item_margin"
+        android:layout_marginTop="@dimen/listview_item_margin" >
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+			<ImageView android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			     android:src="@drawable/point"
+			     android:id="@+id/point"
+			     />
+            
+            <TextView
+                android:id="@+id/item_info_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/item_margin_top"
+                android:text="@string/mine_msg_suggest"
+                android:textColor="@color/textcolor2"
+                android:textSize="@dimen/textsize2" 
+               />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_info_time"
+            style="@style/textstyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/linear"
+            android:layout_marginRight="10dp"
+            android:text="两分钟前" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_info_info"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_margin_top"
+        android:layout_marginLeft="@dimen/listview_item_margin"
+        android:layout_marginRight="@dimen/listview_item_margin"
+        android:layout_marginTop="@dimen/msg_margin_top"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:lineSpacingExtra="@dimen/linespacing"
+        android:text="as发哈撒地方"
+        style="@style/linestyle"
+        
+        android:textColor="@color/textcolor3"
+        android:textSize="@dimen/textsize3" />
+
+    <include layout="@layout/listview_item_header" />
+
+</LinearLayout>

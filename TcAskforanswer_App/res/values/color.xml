@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_gray">#eeeeee</color>
+    <color name="background_white">#ffffff</color>
+
+    <!-- UI  色值        应用范围 -->
+    <!-- 通用文字 -->
+    <color name="text_color">#202020</color>
+    <!-- 灰背色 -->
+    <color name="background_gray_color">#eeeeee</color>
+    <!-- 线 -->
+    <color name="line_view_color">#e5e5e5</color>
+    <!-- 线     灰色-->
+    <color name="line_view_color2">#c7bf1f</color>
+    
+    <!-- 不可点击 -->
+    <color name="not_click_color">#cccccc</color>
+    <!-- 辅助文字 -->
+    <color name="text_color2">#999999</color>
+    <!-- 导航背景，通用文字 -->
+    <color name="tab_background_color">#202020</color>
+    <!-- 半透明背景 -->
+    <color name="half_transparent">#60000000</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    
+    <color name="yellow_main_back">#ffda44</color>
+	<color name="yellow_main_backp">#e1c038</color>
+	<color name="yellow_main_button">#ffdb2e</color>
+	
+    <!-- 字体颜色值 -->
+    <color name="textcolor1">#999999</color>
+    <color name="textcolor2">#666666</color>
+    <color name="textcolor3">#202020</color>
+    
+    <!-- 红色-->
+    <color name="color_red">#ff4359</color>
+    
+    
+    <color name="blue_qian">#55b0ff</color>
+    
+    <color name="blue_miao">#5ab2ff</color>
+    
+    <color name="dynamicbox_exception_button_color">#5fcf80</color>
+    <color name="dynamicbox_exception_button_color_second">#35c460</color>
+    <color name="dynamicbox_exception_title_color">#ff6a7983</color>
+    <color name="dynamicbox_exception_message_color">#8c989e</color>
+        <color name="translucent_background">#80000000</color>
+</resources>

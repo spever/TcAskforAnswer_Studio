@@ -1,0 +1,541 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:2:1-210:12
+	xmlns:android
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:3:5-39
+	android:versionName
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:4:5-28
+		INJECTED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml
+		INJECTED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:7:5-84
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:7:22-81
+uses-permission#android.permission.CAMERA
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:10:5-74
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:13:6-70
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:13:23-67
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:14:5-72
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:14:22-70
+application
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:15:5-182:19
+	android:label
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:19:9-41
+	android:allowBackup
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:18:9-38
+	android:theme
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:20:9-62
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:16:9-73
+activity#com.tuanche.askforanswer.source.ui.WelcomeActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:21:9-29:20
+	android:label
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:22:13-78
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:27:27-74
+activity#com.tuanche.askforanswer.source.ui.OpenActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:31:9-32:56
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:31:82-118
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:31:19-81
+	android:launchMode
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:32:13-44
+activity#com.tuanche.askforanswer.source.ui.RegisterActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:33:9-134
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:33:86-122
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:33:19-85
+activity#com.tuanche.askforanswer.source.ui.HomeActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:34:9-178
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:34:82-118
+	android:theme
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:34:119-166
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:34:19-81
+activity#com.tuanche.askforanswer.source.ui.RegisterActivity2
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:35:9-135
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:35:87-123
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:35:19-86
+activity#com.tuanche.askforanswer.source.ui.SelectCityActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:36:9-136
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:36:88-124
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:36:19-87
+activity#com.tuanche.askforanswer.source.ui.SelectTypeActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:37:9-136
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:37:88-124
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:37:19-87
+activity#com.tuanche.askforanswer.source.ui.MineActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:38:9-39:56
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:38:82-118
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:38:19-81
+	android:launchMode
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:39:13-44
+activity#com.tuanche.askforanswer.source.ui.BankInfoActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:40:9-41:56
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:40:86-122
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:40:19-85
+	android:launchMode
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:41:12-43
+activity#com.tuanche.askforanswer.source.ui.TimeNotBotherActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:42:9-187
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:42:91-127
+	android:theme
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:42:128-175
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:42:19-90
+activity#com.tuanche.askforanswer.source.ui.AboutActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:43:9-131
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:43:83-119
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:43:19-82
+activity#com.tuanche.askforanswer.source.ui.LoginActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:44:9-131
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:44:83-119
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:44:19-82
+activity#com.tuanche.askforanswer.source.ui.QuestionsActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:45:9-183
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:45:87-123
+	android:theme
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:45:124-171
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:45:19-86
+activity#com.tuanche.askforanswer.source.ui.AwardMoneyActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:46:9-136
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:46:88-124
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:46:19-87
+activity#com.tuanche.askforanswer.source.ui.BankAboutCity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:47:9-131
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:47:83-119
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:47:19-82
+activity#com.tuanche.askforanswer.source.ui.SelectBank_Activity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:48:9-137
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:48:89-125
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:48:19-88
+activity#com.tuanche.askforanswer.source.ui.BankTypeActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:49:9-134
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:49:86-122
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:49:19-85
+activity#com.tuanche.askforanswer.source.ui.WebViewShowActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:50:9-137
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:50:89-125
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:50:19-88
+activity#com.tuanche.askforanswer.source.ui.WebViewActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:52:9-133
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:52:85-121
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:52:19-84
+activity#com.tuanche.askforanswer.source.ui.AskInfoActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:54:9-181
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:54:85-121
+	android:theme
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:54:122-169
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:54:19-84
+activity#com.tuanche.askforanswer.source.ui.AskMsgActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:55:9-212
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:55:84-120
+	android:theme
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:55:121-168
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:55:19-83
+	android:launchMode
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:55:169-200
+activity#com.tuanche.askforanswer.source.ui.PerfectDataActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:56:9-137
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:56:89-125
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:56:19-88
+activity#com.tuanche.askforanswer.source.ui.DialogMaskActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:57:9-171
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:57:88-124
+	android:theme
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:57:125-159
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:57:19-87
+activity#com.tuanche.askforanswer.source.dialog.PushDialog
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:58:8-204
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:58:83-119
+	android:theme
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:58:120-159
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:58:18-82
+	android:launchMode
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:58:160-191
+activity#com.tuanche.askforanswer.source.ui.EditDialog
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:59:15-176
+	android:screenOrientation
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:59:86-122
+	android:theme
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:59:123-162
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:59:25-85
+meta-data#app_debug
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:61:9-64:21
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:62:13-37
+	android:value
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:63:13-30
+receiver#com.umeng.message.NotificationProxyBroadcastReceiver
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:67:9-71:20
+	android:process
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:69:4-27
+	android:exported
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:70:13-37
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:68:13-80
+receiver#com.umeng.message.SystemReceiver
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:72:9-85:20
+	android:process
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:74:13-36
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:73:13-60
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:75:13-77:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:76:17-79
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:76:25-76
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:78:13-80:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:79:17-79
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:79:25-76
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:81:13-84:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:82:17-80
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:82:25-77
+data
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:83:17-50
+	android:scheme
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:83:23-47
+receiver#com.umeng.message.MessageReceiver
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:86:9-92:20
+	android:process
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:88:13-36
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:87:13-61
+intent-filter#org.agoo.android.intent.action.RECEIVE
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:89:13-91:29
+action#org.agoo.android.intent.action.RECEIVE
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:90:17-81
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:90:25-78
+receiver#com.umeng.message.ElectionReceiver
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:93:9-100:20
+	android:process
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:95:13-36
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:94:13-62
+intent-filter#org.agoo.android.intent.action.ELECTION_RESULT_V4+umeng
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:96:13-99:29
+action#org.agoo.android.intent.action.ELECTION_RESULT_V4
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:97:17-92
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:97:25-89
+category#umeng
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:98:17-50
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:98:27-47
+receiver#com.umeng.message.RegistrationReceiver
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:101:9-107:20
+	android:exported
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:103:13-37
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:102:13-66
+intent-filter#com.tuanche.askforanswer.intent.action.COMMAND
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:104:13-106:29
+action#com.tuanche.askforanswer.intent.action.COMMAND
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:105:17-89
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:105:25-86
+receiver#com.umeng.message.BootBroadcastReceiver
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:108:3-112:20
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:108:13-67
+receiver#com.tuanche.askforanswer.source.receive.MyReceive
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:114:3-118:20
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:114:13-77
+intent-filter#receive_action_public
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:115:13-117:29
+action#receive_action_public
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:116:17-64
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:116:25-61
+service#com.umeng.message.UmengService
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:119:9-134:19
+	android:label
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:121:4-31
+	android:process
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:123:13-36
+	android:exported
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:122:13-36
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:120:13-58
+intent-filter#com.tuanche.askforanswer.intent.action.START
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:124:13-126:29
+action#com.tuanche.askforanswer.intent.action.START
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:125:17-87
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:125:25-84
+intent-filter#com.tuanche.askforanswer.intent.action.COCKROACH
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:127:13-129:29
+action#com.tuanche.askforanswer.intent.action.COCKROACH
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:128:17-91
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:128:25-88
+intent-filter#org.agoo.android.intent.action.PING_V4+umeng
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:130:13-133:29
+action#org.agoo.android.intent.action.PING_V4
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:131:17-81
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:131:25-78
+service#com.umeng.message.UmengIntentService
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:136:9-137:30
+	android:process
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:137:4-27
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:136:18-69
+service#com.umeng.message.UmengMessageIntentReceiverService
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:139:3-149:13
+	android:process
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:141:4-27
+	android:exported
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:142:4-27
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:140:4-70
+intent-filter#org.android.agoo.client.MessageReceiverService
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:143:4-145:20
+action#org.android.agoo.client.MessageReceiverService
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:144:5-77
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:144:13-74
+intent-filter#org.android.agoo.client.ElectionReceiverService
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:146:4-148:20
+action#org.android.agoo.client.ElectionReceiverService
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:147:5-78
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:147:13-75
+service#com.umeng.update.net.DownloadingService
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:151:3-154:13
+	android:process
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:153:7-44
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:152:7-61
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:155:3-158:14
+	android:theme
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:157:7-66
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:156:7-59
+meta-data#UMENG_APPKEY
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:161:9-164:21
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:162:13-40
+	android:value
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:163:13-53
+meta-data#UMENG_MESSAGE_SECRET
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:165:9-168:21
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:166:13-48
+	android:value
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:167:13-61
+meta-data#UMENG_CHANNEL
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:169:9-172:21
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:170:13-41
+	android:value
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:171:13-51
+		INJECTED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml
+service#com.tuanche.askforanswer.source.service.MyPushIntentService
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:176:9-177:30
+	android:process
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:177:4-27
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:176:18-92
+service#com.umeng.message.UmengDownloadResourceService
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:178:9-179:19
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:178:18-79
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:185:3-65
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:185:20-62
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:186:3-68
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:186:20-65
+uses-permission#android.permission.READ_SMS
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:187:3-65
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:187:20-62
+uses-permission#android.permission.INTERNET
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:189:3-65
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:189:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:190:3-77
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:190:20-74
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:191:3-74
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:191:20-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:192:3-79
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:192:20-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:193:3-66
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:193:20-63
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:194:3-73
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:194:20-70
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:195:3-77
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:195:20-74
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:196:3-74
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:196:20-71
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:197:3-66
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:197:20-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:198:3-79
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:198:20-76
+uses-permission#android.permission.BROADCAST_PACKAGE_ADDED
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:201:3-80
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:201:20-77
+uses-permission#android.permission.BROADCAST_PACKAGE_CHANGED
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:202:3-82
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:202:20-79
+uses-permission#android.permission.BROADCAST_PACKAGE_INSTALL
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:203:3-82
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:203:20-79
+uses-permission#android.permission.BROADCAST_PACKAGE_REPLACED
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:204:3-83
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:204:20-80
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:206:3-69
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:206:20-66
+uses-permission#android.permission.VIBRATE
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:207:3-64
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:207:20-61
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:208:3-83
+	android:name
+		ADDED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml:208:20-80
+uses-sdk
+INJECTED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml
+		INJECTED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml
+		INJECTED from D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\AndroidManifest.xml
+activity#com.tuanche.api.widget.shareWidget.ShareToSina
+ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:11:15-76
+activity#com.tuanche.api.widget.shareWidget.ShareToTenXunWeibo
+ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:12:5-86
+	android:name
+		ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:12:15-83
+activity#com.tuanche.api.widget.shareWidget.ShareToWeiXin
+ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:13:15-78
+activity#com.tuanche.api.widget.shareWidget.ShareEditActivity
+ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:14:5-85
+	android:name
+		ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:14:15-82
+activity#com.tuanche.api.widget.shareWidget.ShareConfigActivity
+ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:15:5-87
+	android:name
+		ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:15:15-84
+activity#com.tencent.weibo.sdk.android.component.Authorize
+ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:16:5-18:59
+	android:theme
+		ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:18:9-56
+	android:name
+		ADDED from [TcAskforAnswer_Studio:TcAskforanswer-Api:unspecified] D:\studio\TcAskforAnswer_Studio\TcAskforanswer_App\build\intermediates\exploded-aar\TcAskforAnswer_Studio\TcAskforanswer-Api\unspecified\AndroidManifest.xml:17:9-73

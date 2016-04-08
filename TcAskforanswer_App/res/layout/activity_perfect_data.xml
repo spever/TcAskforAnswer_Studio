@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_height" >
+
+        <ImageView
+            android:id="@+id/top_back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/background_tab"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_back2" />
+
+        <TextView
+            style="@style/titletyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/pefect_data" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pefect_ivrh"
+        android:background="@color/yellow_main_back"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/textstyle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/pefect_no"
+            android:textColor="@color/color_red"
+            android:id="@+id/tv_perfect_red" 
+            android:visibility="gone"/>
+
+        <TextView
+            style="@style/textstyle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/pefect_data_suggest"
+            android:textColor="@color/textcolor3"
+            android:id="@+id/tv_perfect_black" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/pefect_data_tv"
+        android:text="@string/idcard" 
+        android:drawableLeft="@drawable/star"
+        android:drawablePadding="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pefect_itemh"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/upload_idcard"
+            android:layout_width="@dimen/pefect_ivl"
+            android:layout_height="@dimen/pefect_ivl"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/pefect_item_margin"
+            android:contentDescription="@string/pefect_data"
+            android:scaleType="centerInside"
+            android:src="@drawable/camera" />
+
+        <ImageView
+            android:layout_width="@dimen/pefect_ivrw"
+            android:layout_height="@dimen/pefect_ivrh"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/upload_id"
+            android:layout_marginRight="@dimen/pefect_item_margin"
+            android:contentDescription="@string/pefect_data"
+            android:src="@drawable/card" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:layout_toRightOf="@+id/upload_idcard"
+            android:gravity="center_horizontal"
+            style="@style/textstyle2"
+            android:text="@string/upload_idcard" />
+    </RelativeLayout>
+
+    <TextView
+        style="@style/pefect_data_tv"
+        android:drawableLeft="@drawable/star"
+        android:drawablePadding="5dp"
+        android:text="@string/professionalcard" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pefect_itemh"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/upload_professioncard"
+            android:layout_width="@dimen/pefect_ivl"
+            android:layout_height="@dimen/pefect_ivl"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/pefect_item_margin"
+            android:contentDescription="@string/pefect_data"
+            android:scaleType="centerInside"
+            android:src="@drawable/camera" />
+
+        <ImageView
+            android:layout_width="@dimen/pefect_ivrw"
+            android:layout_height="@dimen/pefect_ivrh"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/upload_prfess"
+            android:layout_marginRight="@dimen/pefect_item_margin"
+            android:contentDescription="@string/pefect_data"
+            android:src="@drawable/infocard" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="27dp"
+            style="@style/textstyle2"
+            android:layout_toRightOf="@+id/upload_professioncard"
+            android:text="@string/upload_professionalcard" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/bottom_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="@dimen/pefect_item_margin"
+        android:layout_marginRight="@dimen/pefect_item_margin"
+        android:layout_marginTop="25dp"
+        android:id="@+id/data_submit"
+        android:background="@drawable/submit_button" >
+
+        <TextView
+            style="@style/titletyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/pefect_data_submit" />
+    </RelativeLayout>
+
+</LinearLayout>

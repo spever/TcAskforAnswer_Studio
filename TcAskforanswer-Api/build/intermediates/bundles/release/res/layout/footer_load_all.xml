@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_good_list_unselect"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/tv_load_hint"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="已显示全部"
+        android:textColor="#B8B8B8"
+        />
+
+</LinearLayout>
+<!-- From: file:/D:/studio/TcAskforAnswer_Studio/TcAskforanswer-Api/res/layout/footer_load_all.xml -->

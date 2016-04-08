@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray"
+    android:orientation="vertical" >
+    
+   <RelativeLayout 
+         android:layout_width="match_parent"
+    	 android:layout_height="@dimen/top_bar_height2"
+         android:background="#ffffff"
+        >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="技师注册"
+            android:textSize="@dimen/top_title_textsize"
+            android:textColor="#333333"
+            android:layout_centerInParent="true"
+            />
+        
+        <ImageView 
+            android:id="@+id/go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/icon_back2"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/background_tab"
+            />
+    </RelativeLayout>
+
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/view_line_rold"
+        android:background="#cccccc"
+        />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_marginTop="@dimen/regist_margintop"
+        >
+        
+        <RelativeLayout 
+           android:layout_width="match_parent"
+    	   android:layout_height="@dimen/relate_high"
+    	   android:background="@color/background_white"
+           >
+			<View
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dip"
+		        android:focusable="true"
+				android:focusableInTouchMode="true"
+	        />
+            
+           	 <EditText
+           	     android:id="@+id/master_user_name"
+           	     android:layout_width="fill_parent"
+           	     android:layout_height="fill_parent"
+           	     android:layout_alignParentLeft="true"
+           	     android:layout_alignParentTop="true"
+           	     android:background="@null"
+           	     android:maxLength="20"
+           	     android:hint="请输入昵称"
+           	     android:paddingLeft="@dimen/pading_left"
+           	     android:textSize="@dimen/tvsize16" >
+
+           	 </EditText>
+
+       </RelativeLayout>
+         	<View
+                   android:layout_width="fill_parent"
+	    	   	   android:layout_height="1dip"
+                   android:background="@color/line_view_color"
+                   />
+        
+        <RelativeLayout 
+           android:id="@+id/select_city"
+           android:layout_width="match_parent"
+    	   android:layout_height="@dimen/relate_high"
+    	   android:background="@color/background_white"
+           >
+           
+            
+            <TextView  
+                 android:layout_width="wrap_content"
+    	  	     android:layout_height="wrap_content"
+                android:text="选择城市"
+                android:textSize="@dimen/tvsize16"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/pading_left"
+                />
+            
+             <TextView
+                 android:id="@+id/city_name"  
+                android:layout_width="200dip"
+    	  	    android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="center_vertical|right"
+                android:textSize="@dimen/tvsize16"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dip"
+                />
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+    	  	    android:layout_height="wrap_content"
+                android:src="@drawable/btn_right_jian"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:paddingRight="@dimen/pading_left"
+                />
+            
+            
+           	 
+       </RelativeLayout>
+         	 <View
+                   android:layout_width="fill_parent"
+	    	   	   android:layout_height="1dip"
+                   android:background="@color/line_view_color"
+                   />
+        <RelativeLayout 
+           android:id="@+id/select_type"
+           android:layout_width="match_parent"
+    	   android:layout_height="@dimen/relate_high"
+    	   android:background="@color/background_white"
+           >
+           
+            
+            <TextView  
+                 android:layout_width="wrap_content"
+    	  	     android:layout_height="wrap_content"
+                android:text="选择品牌"
+                android:textSize="@dimen/tvsize16"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/pading_left"
+                />
+            
+             <TextView
+                android:id="@+id/car_type_names"  
+                android:layout_width="230dip"
+    	  	    android:layout_height="wrap_content"
+                android:text="选择品牌"
+                android:gravity="center_vertical|right"
+                android:textSize="@dimen/tvsize16"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dip"
+                android:singleLine="true"
+                android:ellipsize="end"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+    	  	    android:layout_height="wrap_content"
+                android:src="@drawable/btn_right_jian"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:paddingRight="@dimen/pading_left"
+                />
+       </RelativeLayout>
+         	
+       
+    </LinearLayout>
+    
+    <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_marginTop="@dimen/margin_top"
+          android:layout_height="@dimen/relate_high"
+    	   android:background="@color/background_white"
+        >
+        
+         <TextView 
+            android:layout_width="wrap_content"
+    	 	android:layout_height="fill_parent"
+    	 	android:text="@string/master_instered_tags"
+    	 	android:textSize="@dimen/tvsize16"
+    	 	android:paddingLeft="@dimen/pading_left"
+    	 	android:layout_gravity="center_vertical"
+    	 	android:gravity="center"
+            />
+         <TextView 
+            android:layout_width="wrap_content"
+    	 	android:layout_height="fill_parent"
+    	 	android:text=" (可多选)"
+    	 	android:textSize="@dimen/tvsize12"
+    	 	android:layout_gravity="center_vertical"
+    	 	android:gravity="center"
+            />
+         
+    </LinearLayout>
+    		<View
+                   android:layout_width="fill_parent"
+	    	   	   android:layout_height="1dip"
+                   android:background="@color/line_view_color"
+                   />
+    
+   
+     <ListView 
+             android:id="@+id/car_tag_select"
+             android:layout_width="fill_parent"
+    	 	 android:layout_height="280dip"
+             />
+    <Button
+        android:id="@+id/btnNext2" 
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="提交，完成注册"
+    android:layout_marginTop="@dimen/btn_margin_top"
+    android:background="@drawable/submit_button"
+    android:textSize="@dimen/tvsize18"
+    />
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>

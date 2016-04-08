@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_left" >
+
+        <com.tuanche.askforanswer.source.view.CircularImage
+            android:id="@+id/itme_circle_iv"
+            android:layout_width="@dimen/item_circle_size_info"
+            android:layout_height="@dimen/item_circle_size_info"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/item_margin_top"
+            android:src="@drawable/head_s_boy" />
+        
+        <TextView
+            android:id="@+id/item_info_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itme_circle_iv"
+            android:layout_marginLeft="@dimen/item_margin_top"
+            android:layout_marginRight="13dp"
+            android:layout_toRightOf="@+id/itme_circle_iv"
+            android:text="什么车更拉风ad司法局拉德斯基发来撒大卷发家分店"
+            android:textSize="@dimen/textsize4" />
+
+        <TextView
+            android:id="@+id/item_info_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_info_info"
+            android:layout_marginLeft="@dimen/item_margin_top"
+            android:layout_marginTop="@dimen/item_margin_top"
+            android:layout_toRightOf="@+id/itme_circle_iv"
+            android:textColor="@color/textcolor1"
+            android:textSize="@dimen/textsize1" />
+
+           <ImageView
+               android:id="@+id/item_adopt_view"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_alignTop="@+id/itme_circle_iv"
+               android:layout_toStartOf="@+id/itme_circle_iv"
+               android:src="@drawable/adopt"
+               android:visibility="visible" />
+
+           <TextView
+               android:id="@+id/item_info_tv"
+               style="@style/textstyle2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignTop="@+id/itme_circle_iv"
+               android:layout_alignLeft="@+id/item_info_info"
+               android:drawablePadding="5dp"
+               android:drawableRight="@drawable/atte"
+               android:layout_marginTop="4dp"
+               android:gravity="center"
+               android:text="虎大师傅"
+               android:textSize="@dimen/textsize3" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/line_view_color" />
+
+</LinearLayout>

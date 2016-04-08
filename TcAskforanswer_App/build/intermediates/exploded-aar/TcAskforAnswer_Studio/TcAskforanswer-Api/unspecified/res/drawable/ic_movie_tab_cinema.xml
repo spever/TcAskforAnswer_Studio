@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:state_pressed="false"
+        android:drawable="@drawable/nav_icon_cinema_sel"/>
+
+    <item
+        android:state_checked="true"
+        android:state_pressed="false"
+        android:drawable="@drawable/nav_icon_cinema_sel"/>
+    <item android:drawable="@drawable/nav_icon_cinema_nor"/>
+</selector>
+
+<!-- From: file:/D:/studio/TcAskforAnswer_Studio/TcAskforanswer-Api/res/drawable/ic_movie_tab_cinema.xml -->

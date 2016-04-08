@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+	
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="100dip"
+        android:background="@color/background_white"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/mine_each_top2"
+        android:gravity="center"
+        >
+			
+        <LinearLayout 
+            android:layout_width="300dip"
+        	android:layout_height="100dip"
+            android:orientation="vertical"
+            >
+         
+            <TextView
+	                android:layout_width="fill_parent"
+	        		android:layout_height="wrap_content"
+	        		android:layout_weight="1"
+	        		android:text="退出登陆 "
+	        		android:textSize="@dimen/tvsize20"
+	        		android:gravity="center_vertical"
+	        		android:layout_marginLeft="10dip"
+                />
+            
+
+           	<View 
+           	     android:layout_weight="0"
+           	     android:layout_width="fill_parent"
+                 android:layout_height="1dip"
+           	     android:background="@color/line_view_color"
+           	    />
+           
+           <TextView 
+	            android:layout_weight="1"
+	            android:id="@+id/user_name"
+	            android:layout_width="fill_parent"
+	            android:layout_height="45dip"
+	            android:text="您确定退出登陆吗？ "
+	            android:textColor="@color/textcolor1"
+	            android:gravity="center_vertical"
+	            android:textSize="@dimen/tvsize18"
+	            android:layout_marginLeft="10dip"
+	            /> 
+        
+        </LinearLayout>
+    </LinearLayout>
+     <LinearLayout 
+             android:layout_width="300dip"
+	         android:layout_height="45dip"
+	         android:background="@color/yellow_main_back"
+	         android:layout_gravity="bottom"
+             >
+             <TextView 
+                 android:id="@+id/btn_cancel"
+                 android:layout_width="0dip"
+	         	android:layout_height="fill_parent"
+                 android:layout_weight="1"
+                 android:text="取消"
+                 android:gravity="center"
+                 android:background="@drawable/submit_button"
+                 android:textSize="@dimen/tvsize22"
+                 />
+             <View 
+                 android:layout_width="1dip"
+	         	 android:layout_height="fill_parent"
+	         	 android:background="@color/line_view_color2"
+                 />
+             <TextView 
+                  android:id="@+id/btn_sure"
+                  android:layout_width="0dip"
+	         	  android:layout_height="fill_parent"
+                  android:layout_weight="1"
+                  android:text="确认"
+                 android:background="@drawable/submit_button"
+                  android:gravity="center"
+                  android:textSize="@dimen/tvsize22"
+                 />
+         </LinearLayout>
+    
+</LinearLayout>

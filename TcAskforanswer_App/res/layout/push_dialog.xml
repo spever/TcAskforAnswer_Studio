@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:background="@color/white"
+     >
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/diglog_margin_top"
+        android:textColor="@color/red"
+        android:textSize="@dimen/push_detail_textsize" 
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/diglog_margin_top"
+        android:textColor="@color/textcolor3"
+        android:textSize="@dimen/textsize5"
+        android:textStyle="bold"
+        android:id="@+id/dialog_push_text"
+        android:text="阿斯蒂芬姐啊三分" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/diglog_margin_top"
+        android:textColor="@color/red"
+        android:textSize="@dimen/push_detail_textsize" 
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/push_button_height"
+        android:layout_marginTop="@dimen/diglog_margin_top"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/confirm_submit"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/submit_button"
+            android:gravity="center"
+            android:text="@string/check_now"
+            android:textColor="@color/textcolor3"
+            android:textSize="@dimen/textsize4"
+             />
+
+        <ImageView
+            android:layout_width="@dimen/push_iv_width"
+            android:layout_height="fill_parent"
+            android:background="#e7bf1f" />
+
+        <TextView
+            android:id="@+id/confirm_cancel"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/submit_button"
+            android:gravity="center"
+            android:text="@string/check_wait"
+            android:textColor="@color/textcolor3"
+            android:textSize="@dimen/textsize4"
+             />
+    </LinearLayout>
+  
+
+</LinearLayout>

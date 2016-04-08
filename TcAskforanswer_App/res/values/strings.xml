@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">车大师-技师版</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 待回达 -->
+    <string name="item_nopeople">0人回答</string>
+    <string name="item_answer">立刻回答</string>
+    <!--
+         Resources res = getResources();
+		String text = String.format(res.getString(R.string.welcome_messages), username, mailCount);
+
+    -->
+    <string name="item_ask"> %1$s&#160;问：</string>
+    <string name="item_people_ask"> 有%1$s条问题待解答！</string>
+    <string name="top_home_text">车大师</string>
+    <string name="item_header_info"> 已有%1$s 人回答</string>
+
+    <!-- 消息通知 -->
+    <string name="top_msg_text">消息通知</string>
+    <string name="top_msg_my">已回答问题通知</string>
+    <string name="top_msg_system">系统消息通知</string>
+    <!-- 首页 -->
+    <string name="home_wait_answer">等待回答</string>
+    <string name="home_append_answer">补充回答</string>
+    <string name="top_ask_info">问题详情</string>
+
+    <!-- 登陆页面 -->
+    <string name="login_title">登陆</string>
+    
+    <!-- 技师注册 -->
+    <string name="master_regist_title">技师注册</string>
+    <string name="master_instered_tags">选择擅长的方向</string>
+    
+    
+
+    <!-- 我的 -->
+	<string name="mine_info_title">我的</string>
+	<string name="mine_user_name">白眉大王</string>
+	<string name="mine_answer_numbers">答题量</string>
+	<string name="mine_good_numbers">采纳量</string>
+	<string name="mine_get_numbers">收益</string>
+	
+	<!-- 答题量 -->
+	<string name="answer_text_title">答题量</string>
+
+    <!-- 银行卡信息 -->
+    <string name="bank_info_title">银行卡信息</string>
+    <string name="bank_info_tell1">开户行名称可以打银行卡上的客服电话获取，输入错误将无法打款成功。</string>
+    <string name="bank_info_tell2">为确保打款顺利，信息提交成功后将不可在线修改，请准确填写。</string>
+    
+    
+    
+    
+    <!-- 申请提现 -->
+    <string name="award_money_title">申请提现</string>
+    <string name="award_money_all">收益余额(元)</string>
+    <string name="answer_money_get">答题获得收益</string>
+    <string name="system_money_get">系统奖励收益</string>
+    <string name="get_money_large">收益金额超过一百才可申请提取</string>
+    
+     <!-- 关于我们 -->
+    <string name="about_ous_text">【车大师】 是一个值得信赖的用车咨询问答平台，车主通过手机发布有关于用车过程中碰到
+        			的维修保养故障等相关问题，全国签约的维修保养技师通过平台随时解答亿万车主的问题，一旦采纳即获得相应
+        			报酬收益，并赢得车主尊敬。</string>
+    
+
+    <!-- 证件资料 -->
+    <string name="paper_info_title">完善资料</string>
+
+    <string name="webview_title">网页展示</string>
+    
+    <!-- 免打扰 -->
+    <string name="not_bother_title">免打扰设置</string>
+    <string name="time_select">选择时段</string>
+    <string name="time_during">00:00——00:00</string>
+    <string name="time_not_bother">免打扰</string>
+    <string name="cancel_select_time">取消</string>
+    <string name="sure_select_time">完成</string>
+    
+
+    <!-- 关于我们 -->
+    <string name="about_ous_title">关于我们</string>
+
+    <!-- 找回密码 -->
+    <string name="find_pass_title">找回密码</string>
+   	<!-- 完善资料 -->
+    <string name="pefect_data">完善资料</string>
+    <string name="pefect_data_suggest">完善资料后，我们才能进行收入结算</string>
+    <string name="pefect_data_auditing">信息还在审核中</string>
+    <string name="pefect_data_refuseaudit">认证信息审核拒绝</string>
+    <string name="pefect_data_refusereason">职业资料证书模糊不清，请重新上传</string>
+    <string name="pefect_data_submit">提交</string>
+    <string name="idcard">身份证</string>
+    <string name="professionalcard">职业资格认证：</string>
+    <string name="fourcard">职业证书·工作照·工作证·最多上传四张</string>
+    <string name="upload_idcard">上传身份证正面</string>
+    <string name="upload_professionalcard">上传证件</string>
+    <string name="bottom_info">初次通过审核即获%1$s元现金</string>
+    <string name="no_aduit">未认证通过</string>
+
+    <string name="auditing">认证正在审核中</string>
+    <string name="audited">去认证</string>
+   	<!--回答  -->
+    <string name="textnum">%1$s/500</string>
+    <string name="textisnull">亲请输入您的评论</string>
+    <string name="answerhint">请输入追问内容</string>
+	
+    
+    <string name="answer_num">共回答问题%1$s条</string>
+	<string name="answer_receive">共被采纳%1$s条</string>
+    <string name="mineanswer">我要回答</string>
+   
+    <string name="mine_msg_suggest">[ %1$s！]</string>
+    <string name="mine_msg_receive">[ 您的问题被采纳了！]</string>
+    <string name="sys_msg_suggest">[ 车大师团队！]</string>
+    <string name="pefect_no">认证信息审核拒绝</string>
+    
+    <string name="num_myanswer">答题量</string>
+	<string name="num_myreceive">被采纳</string>
+    
+	<string name="audit_no">您还没有认证，不能进行操作，赶紧去认证，回答问题得收益</string>	
+	<string name="audit_ing">审核中，认证通过后才能进行操作</string>
+	<string name="audit_ed">您的认证已经审核通过，赶紧去回答问题挣收益吧！</string>	
+	<string name="audit_refused">您的认证审核被拒绝，请重新修改申请</string>	
+	<string name="audit_go">去认证技师</string>	
+	<string name="audit_update">去修改申请</string>	
+	
+	<string name="net_no" >哎呀,断网了</string>
+	<string name="net_failue" >哎呀,访问出错了</string>
+	<string name="net_timeout" >亲,访问超时了</string>
+	<string name="gson_error">%1$sjson解析错误</string>
+	
+	<string name="item_review">%1$s人回复</string>
+	
+	<string name="perfect_must">身份证和相关证件必须同时上传</string>
+	
+	<string name="empty_string">empty</string>
+    <string name="dynamicbox_retry">重新加载</string>
+
+    <string name="dynamicbox_loading_title"></string>
+    <string name="dynamicbox_loading_message"></string>
+
+    <string name="dynamicbox_internet_off_title">Error</string>
+    <string name="dynamicbox_internet_off_message">网络断开了请检查网络</string>
+
+    <string name="dynamicbox_exception_title">Error</string>
+    <string name="dynamicbox_exception_message">加载失败, 点击按钮重新加载</string>
+	<string name="nomsg">你还没有消息哦</string>
+	<string name="noanswer">他还没有被回答的问题哦</string>
+	<string name="noanswerquestion">你还没有答过题，赶紧去答题吧！</string>
+	<string name="noacceptquestion">你的回答还没有被采纳过哦，赶紧去答题吧！</string>
+	<string name="check_now">马上查看</string>
+	<string name="check_wait">等会再看</string>
+	<string name="no_question">等会再看</string>
+	<string name="much_content">亲，多输点内容吧</string>
+	<string name="sensitive">你录入的信息里含非法词，请修改后重新提交</string>
+	</resources>

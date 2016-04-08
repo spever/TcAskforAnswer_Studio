@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+	
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="140dip"
+        android:background="@color/background_white"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/mine_each_top2"
+        android:gravity="center" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/headed_image_width"
+            android:gravity="center_horizontal" >
+            
+           <LinearLayout 
+                android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_gravity="center_horizontal"
+        		android:layout_marginTop="25dip"
+                >
+                <TextView 
+	                android:layout_width="wrap_content"
+	        		android:layout_height="wrap_content"
+	        		android:text="您的银行卡信息为空"
+	        		android:textSize="@dimen/tvsize18"
+	        		android:gravity="center"
+               	 />
+            
+	            <TextView 
+	                android:id="@+id/money_show"
+	                android:layout_width="wrap_content"
+	        		android:layout_height="wrap_content"
+	                android:text=""
+	                android:textColor="@color/color_red"
+	                android:textSize="@dimen/tvsize18"
+	                android:gravity="center"
+	                />
+	           
+                
+            </LinearLayout>
+
+           <TextView 
+            android:id="@+id/user_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="请先去填写银行卡信息"
+            android:gravity="center"
+            android:textSize="@dimen/tvsize18"
+            android:layout_marginTop="55dip"
+            /> 
+        </FrameLayout>
+        
+    </LinearLayout>
+     <LinearLayout 
+             android:layout_width="300dip"
+	         android:layout_height="45dip"
+	         android:background="@color/yellow_main_back"
+	         android:layout_gravity="bottom"
+             >
+             <TextView 
+                 android:id="@+id/btn_cancel"
+                 android:layout_width="0dip"
+	         	android:layout_height="fill_parent"
+                 android:layout_weight="1"
+                 android:text="取消"
+                 android:gravity="center"
+                 android:textSize="@dimen/tvsize22"
+                 />
+             <View 
+                 android:layout_width="1dip"
+	         	 android:layout_height="fill_parent"
+	         	 android:background="@color/line_view_color2"
+                 />
+             <TextView 
+                  android:id="@+id/btn_sure"
+                 android:layout_width="0dip"
+	         	android:layout_height="fill_parent"
+                 android:layout_weight="1"
+                 android:text="确认"
+                  android:gravity="center"
+                 android:textSize="@dimen/tvsize22"
+                 />
+         </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow_main_back"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_left" >
+
+        <com.tuanche.askforanswer.source.view.CircularImage
+            android:id="@+id/itme_circle_iv"
+            android:layout_width="@dimen/item_circle_size"
+            android:layout_height="@dimen/item_circle_size"
+            android:layout_alignParentTop="true"
+            android:layout_margin="0dp"
+            android:src="@drawable/head_user" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_toRightOf="@+id/itme_circle_iv"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+             >
+
+            <TextView
+                android:id="@+id/question_nick"
+                style="@style/textstyle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_ask"
+                 />
+
+            <TextView
+                android:id="@+id/question_time"
+                style="@style/textstyle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2分钟前"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/textcolor2" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/textstyle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize4"
+        android:layout_marginLeft="@dimen/item_margin_left"
+        android:layout_marginTop="@dimen/common_margin"
+        android:layout_marginRight="@dimen/item_margin_left"
+        android:text="什么车更拉风"
+        android:id="@+id/question_info" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_left"
+        android:layout_marginTop="@dimen/common_margin"
+        android:background="@color/yellow_main_back"
+        android:drawableLeft="@drawable/label_black"
+        android:textColor="@color/textcolor2"
+		android:textSize="@dimen/textsize1"
+		android:id="@+id/question_tag"
+        android:drawablePadding="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_margin_top" />
+
+    <include layout="@layout/listview_header_anwnum" />
+
+</LinearLayout>

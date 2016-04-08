@@ -1,0 +1,314 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontskipnonpubliclibraryclassmembers
+-dontpreverify
+-ignorewarnings
+
+
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Service
+-keep public class * extends android.app.FragmentActivity
+-keep public class * extends android.support.v4.app.FragmentActivity
+-keep public class * extends android.support.v4.app.Fragment
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.licensing.ILicensingService
+
+
+
+
+
+
+-keep public class * extends android.preference.Preference
+#自定义控件不要混淆
+-keep public class * extends android.view.View {*;}
+
+#数据适配器adapter不要混淆
+#adapter也不能混淆
+-keep public class * extends android.widget.BaseAdapter {*;}
+
+-keepclasseswithmembers class * {
+    native <methods>;
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+##---------------Begin: proguard configuration for Gson  ----------
+# Gson uses generic type information stored in a class file when working with fields. Proguard
+# removes such information by default, so configure it to keep all of it.
+-keepattributes Signature
+
+# For using GSON @Expose annotation
+-keepattributes *Annotation*
+
+# Gson specific classes
+-keep class sun.misc.Unsafe { *; }
+#-keep class com.google.gson.stream.** { *; }
+
+# Application classes that will be serialized/deserialized over Gson
+-keep class com.google.gson.examples.android.model.** { *; }
+
+##---------------End: proguard configuration for Gson  ----------
+
+-keep class android.net.http.** {*;}
+
+-keep class **.R$* {*;}
+
+-keep public class android.net.http.SslError
+-keep public class android.webkit.WebViewClient
+
+-dontwarn android.webkit.WebView
+-dontwarn android.net.http.SslError
+-dontwarn android.webkit.WebViewClient
+
+-dontwarn android.content.**
+-keep class android.content.** { *;}
+
+-dontwarn org.json.**
+-keep class org.json.** { *;}
+
+-dontwarn com.tuanche.**
+-keep interface com.tuanche.askforanswer.app.** { *; }
+-keep class com.tuanche.askforanswer.app.utils.** { *; }
+-keep class com.tuanche.askforanswer.source.bean.** { *; }
+-keep class com.tuanche.askforanswer.source.service.** { *; }
+-keep class com.tuanche.askforanswer.source.receive.** { *; }
+
+
+-keep class com.tuanche.api.** { *; }
+-keep interface com.tuanche.api.** { *; }
+
+
+#过滤腾讯
+-dontwarn com.tencent.**
+-keep class com.tencent.** { *; }
+#过滤高德
+-dontwarn com.autonavi.**
+-keep class com.autonavi.** { *; }
+
+-dontwarn com.amap.**
+-keep class com.amap.** { *; }
+
+-dontwarn com.aps.**
+-keep class com.aps.** { *; }
+
+#百度推送
+-dontwarn com.baidu.**
+-keep class com.baidu.** { *; }
+
+#
+-dontwarn com.it.**
+-keep class com.it.** { *; }
+#过滤Apache
+-dontwarn org.apache.**
+-keep class org.apache.** { *; }
+
+#过滤U付
+-dontwarn com.umpay.**
+-keep class com.umpay.** { *; }
+
+#过滤android.support
+-libraryjars  libs/android-support-v4.jar
+-dontwarn android.support.**
+-keep class android.support.** { *; }
+-keep interface android.support.** { *; }
+
+
+-dontwarn com.squareup.okhttp.**
+-dontwarn org.luaj.vm2.**
+-keepnames public class * 
+
+-keep public class com.alipay.android.app.pay.channel.*
+-keep public class com.alipay.android.app.pay.MspResult
+-keep public class com.alipay.android.app.net.Request
+-keep class com.alipay.android.mini.widget.CustomEditText {*;}
+-keep public class com.alipay.android.app.widget.BaseTarget {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.pay.PaySecurityMonitor {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.IAlixPay {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.IAlixPay$Stub {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.IRemoteServiceCallback {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.IRemoteServiceCallback$Stub {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.pay.IAlixPay {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.pay.IAlixPay$Stub {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.pay.IAlixPayCallback {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.pay.IAlixPayCallback$Stub {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.script.** {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.pay.PayTask {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.pay.PayTask$OnPayListener {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.pay.CheckAccountTask {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.app.pay.CheckAccountTask$OnCheckListener {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.sdk.auth.AlipaySDK{public *;}
+-keep class com.alipay.sdk.auth.APAuthInfo{public *;}
+-keep class com.alipay.android.app.encrypt.* {
+    <fields>;
+    <methods>;
+}
+
+#-dontwarn com.alipay.**
+#-keep class com.alipay.** { *; }
+
+#-dontwarn android.content.pm.**
+#-keep class android.content.pm.** { *; }
+
+#-dontwarn a
+#-keep class a { *; }
+
+#过滤Alipay
+-dontwarn HttpUtils.**
+-keep class HttpUtils.** { *; }
+
+-dontwarn com.ta.**
+-keep class com.ta.** { *; }
+
+-dontwarn com.ut.**
+-keep class com.ut.** { *; }
+
+-dontwarn org.agoo.ut.device.**
+-keep class org.agoo.ut.device.** { *; }
+
+-dontwarn com.squareup.picasso.**
+-keep class com.squareup.picasso.** { *; }
+
+#过滤google
+-dontwarn com.google.**
+-keep class com.google.** { *; }
+
+#过滤google zxing
+-dontwarn com.google.zxing.**
+-keep class com.google.zxing.** { *; }
+
+#
+-dontwarn org.rome.**
+-keep class org.rome.** { *; }
+
+#过滤友盟
+-dontwarn com.umeng.**
+-keep class com.umeng.** { *; }
+
+#过滤新浪
+-dontwarn com.sina.**
+-keep class com.sina.** { *; }
+
+#过滤银联支付
+-dontwarn com.unionpay.upomp.bypay.**
+-keep class com.unionpay.upomp.bypay.** { *; }
+
+#友盟推送
+-dontshrink
+
+-keep,allowshrinking class com.umeng.message.* {
+        public <fields>;
+        public <methods>;
+}
+
+-keep,allowshrinking class com.umeng.message.protobuffer.MessageResponse$PushResponse$Info {
+        public <fields>;
+        public <methods>;
+}
+
+-keep,allowshrinking class com.umeng.message.protobuffer.MessageResponse$PushResponse$Info$Builder {
+        public <fields>;
+        public <methods>;
+}
+
+-keep,allowshrinking class org.android.agoo.impl.*{
+        public <fields>;
+        public <methods>;
+}
+
+-keep,allowshrinking class org.android.agoo.service.* {*;}
+
+-keep,allowshrinking class org.android.spdy.**{*;}
+
+-keep public class com.tuanche.askforuser.R$*{
+    public static final int *;
+}
+#友盟结束
+-keep public class com.tuanche.api.R$*{
+    public static final int *;
+}

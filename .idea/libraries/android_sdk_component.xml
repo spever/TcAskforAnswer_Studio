@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android_sdk_component">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TcAskforanswer-Api/libs/android_sdk_component.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

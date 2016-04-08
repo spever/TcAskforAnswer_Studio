@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+        <LinearLayout
+            android:id="@+id/exception_wrapper"
+            android:layout_width ="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/loading_p"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            >
+                <ImageView android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@anim/main_loading"
+                    android:id="@+id/iv_loading" />
+        </LinearLayout>
+</RelativeLayout>

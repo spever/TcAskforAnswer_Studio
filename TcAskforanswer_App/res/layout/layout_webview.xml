@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<WebView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/wv_webview">
+
+</WebView>
+    <RelativeLayout
+        android:id="@+id/RelativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/exception_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/exception_title"
+                style="@style/exception.title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dynamicbox_internet_off_title"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="@dimen/nopicszie"
+                android:layout_height="@dimen/nopicszie"
+                android:src="@drawable/pic_nointent" />
+
+            <TextView
+                android:id="@+id/exception_message"
+                style="@style/exception.message"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:text="@string/dynamicbox_internet_off_message" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/exception_button"
+            style="@style/exception.button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exception_wrapper"
+            android:layout_centerHorizontal="true"
+            android:text="@string/dynamicbox_retry"
+            android:visibility="gone" />
+    </RelativeLayout>
+</FrameLayout>

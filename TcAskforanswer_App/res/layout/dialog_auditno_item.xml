@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.tuanche.askforanswer.source.view.CircularImage
+        android:id="@+id/dialog_iv"
+        android:layout_width="@dimen/diglog_iv_size"
+        android:layout_height="@dimen/diglog_iv_size"
+        android:layout_marginTop="@dimen/diglog_margin_top"
+        android:background="@drawable/icon_success"
+        android:src="@drawable/head_user" />
+
+    <TextView
+        android:id="@+id/dialog_tv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/diglog_margin_top"
+        android:layout_marginRight="@dimen/diglog_margin_top"
+        android:layout_marginTop="@dimen/diglog_margin_top"
+        android:text="@string/audit_no"
+        android:textColor="@color/textcolor3"
+        android:textSize="@dimen/textsize3" />
+
+    <TextView
+        android:id="@+id/dialog_sure"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="@dimen/diglog_margin_top"
+        android:layout_marginLeft="@dimen/diglog_margin_top"
+        android:layout_marginRight="@dimen/diglog_margin_top"
+        android:layout_marginTop="@dimen/diglog_margin_top"
+        android:background="@drawable/submit_button"
+        android:gravity="center"
+        android:text="@string/audit_go"
+        android:textSize="@dimen/textsize5" />
+
+</LinearLayout>

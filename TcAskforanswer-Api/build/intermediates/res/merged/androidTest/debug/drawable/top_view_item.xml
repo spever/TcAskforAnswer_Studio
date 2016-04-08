@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/top_select"/>
+    <item android:state_pressed="false" android:drawable="@drawable/top_unselect" />
+</selector>
+<!-- From: file:/D:/studio/TcAskforAnswer_Studio/TcAskforanswer-Api/res/drawable/top_view_item.xml --><!-- From: file:/D:/studio/TcAskforAnswer_Studio/TcAskforanswer-Api/build/intermediates/bundles/debug/res/drawable/top_view_item.xml -->

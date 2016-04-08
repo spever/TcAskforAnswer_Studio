@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_height"
+        android:background="@color/yellow_main_back" >
+
+        <ImageView
+            android:id="@+id/top_back"
+            android:layout_width="@dimen/back_size"
+            android:layout_height="@dimen/back_size"
+            android:background="@drawable/return_button"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_back2" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/titletyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/top_ask_info" />
+    </RelativeLayout>
+
+    <com.tuanche.askforanswer.source.view.MyRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rel_listener" >
+		<include
+                android:id="@+id/fill_height"
+                layout="@layout/listview_header_askinfo"
+                android:visibility="invisible" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linear" 
+            android:orientation="vertical"
+            android:id="@+id/linear_info">
+			
+            <com.tuanche.api.widget.pulltorefresh.library.PullToRefreshListView
+                xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/asklistview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@null"
+                ptr:ptrDrawableStart="@drawable/pullrefres_loading"
+                ptr:ptrAnimationStyle="rotate"
+                ptr:ptrMode="both" />
+        </LinearLayout>
+      
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+			
+            <LinearLayout
+                android:id="@+id/edit_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/line_height"
+                    android:background="@color/line_view_color" />
+
+                <TextView
+                    android:id="@+id/submit_answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/slidingtabh"
+                    android:drawableLeft="@drawable/input"
+                    android:drawablePadding="@dimen/item_margin_top"
+                    android:gravity="center"
+                    android:text="@string/mineanswer"
+                    android:textColor="@color/textcolor3"
+                    android:textSize="@dimen/textsize5" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.tuanche.askforanswer.source.view.MyRelativeLayout>
+
+</LinearLayout>

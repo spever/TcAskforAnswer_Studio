@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_left"
+        android:layout_marginTop="10dp" >
+
+        <com.tuanche.askforanswer.source.view.CircularImage
+            android:id="@+id/itme_circle_iv"
+            android:layout_width="@dimen/item_circle_size"
+            android:layout_height="@dimen/item_circle_size"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/item_margin_top"
+            android:layout_toRightOf="@+id/itme_circle_iv"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/item_ask_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/item_ask"
+                android:textColor="@color/textcolor2"
+                android:textSize="@dimen/textsize2" />
+
+            <TextView
+                android:id="@+id/item_ask_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2分钟前"
+                android:layout_marginTop="@dimen/littlemarintop"
+                android:textColor="@color/textcolor1"
+                android:textSize="@dimen/textsize1" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/item_adopt_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/adopt"
+            android:visibility="visible"
+             />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_left"
+        android:layout_marginTop="@dimen/item_margin_top"
+        android:text="什么车更拉风"
+        android:id="@+id/item_info"
+        style="@style/linestyle"
+        android:textColor="@color/textcolor3"
+        android:textSize="@dimen/textsize3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="@dimen/item_margin_top">
+
+        <TextView
+            android:id="@+id/item_tag"
+            style="@style/textstyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/item_margin_left"
+            android:drawableLeft="@drawable/label"
+            android:drawablePadding="8dp"
+            android:text="汽车美容" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="14人回复"
+            android:id="@+id/item_review"
+            android:textColor="@color/textcolor1"
+            android:layout_marginRight="@dimen/common_margin"
+            android:textSize="@dimen/textsize1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_margin"
+        android:layout_marginTop="@dimen/item_margin_top"
+        android:background="@color/background_gray" />
+
+</LinearLayout>

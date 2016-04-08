@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    
+    
+    
+    <Button
+         android:id="@+id/master_login"
+         android:layout_width="match_parent"
+   		 android:layout_height="45dip"
+         android:text="技师登录"
+         android:layout_marginTop="@dimen/margin_top"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="25dip"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+         android:background="@drawable/submit_button2"
+        />
+    
+    
+    <Button
+         android:id="@+id/master_register"
+         android:layout_width="match_parent"
+   		 android:layout_height="45dip"
+         android:text="技师注册"
+         android:layout_above="@id/master_login"
+         android:background="@drawable/submit_button"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+        />
+    
+     <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="fill_parent"
+        android:layout_above="@id/master_register"
+        android:layout_marginTop="60dip"
+        >
+        
+         
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+    	    android:layout_height="30dip"
+            android:layout_centerInParent="true"
+            >
+            
+            <View 
+                android:layout_width="95dip"
+    	   		android:layout_height="1dip"
+    	   		android:background="@color/not_click_color"
+    	   		android:layout_centerVertical="true"
+    	   		android:layout_marginLeft="40dip"
+                />
+            
+            <TextView 
+                android:layout_width="wrap_content"
+    	   		android:layout_height="wrap_content"
+    	   		android:text="技师专业版"
+    	   		android:layout_centerInParent="true"
+    	   		android:textColor="@color/not_click_color"
+                />
+            
+            <View 
+                android:layout_width="95dip"
+    	   		android:layout_height="1dip"
+    	   		android:background="@color/not_click_color"
+    	   		android:layout_centerVertical="true"
+    	   		android:layout_alignParentRight="true"
+    	   		android:layout_marginRight="40dip"
+                />
+            
+        </RelativeLayout>
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+            android:layout_above="@id/relative"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dip"
+            >
+            <ImageView 
+                android:layout_width="90dip"
+    	  		android:layout_height="90dip"
+    	  		android:src="@drawable/logo"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+    	  		android:layout_height="wrap_content"
+    	  		android:textSize="@dimen/tvsize22"
+    	  		android:textColor="@color/textcolor3"
+    	  		android:gravity="center"
+    	  		android:textStyle="bold"
+    	  		android:layout_marginTop="5dip"
+    	  		android:text="车大师"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+    	  		android:layout_height="wrap_content"
+    	  		android:textSize="@dimen/tvsize18"
+    	  		android:gravity="center"
+    	  		android:textColor="@color/textcolor3"
+    	  		android:layout_marginTop="5dip"
+    	  		android:text="做大师，用知识赚钱"
+                />
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   <RelativeLayout 
+         android:layout_width="match_parent"
+    	 android:layout_height="@dimen/top_bar_height"
+         android:background="#ffffff"
+        >
+        
+        <TextView 
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="技师注册"
+            android:textSize="@dimen/tvsize20"
+            android:textColor="#333333"
+            android:layout_centerInParent="true"
+            />
+        
+        <ImageView 
+            android:id="@+id/go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/icon_back2"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/background_tab"
+            />
+    </RelativeLayout>
+    
+  
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_marginTop="@dimen/regist_margintop"
+    	android:background="@color/background_white">
+        
+       <RelativeLayout
+           android:layout_width="match_parent"
+    	   android:layout_height="45dip"
+           >
+           
+           <EditText
+               android:id="@+id/master_phone" 
+               android:layout_width="230dip"
+    	  	   android:layout_height="fill_parent"
+    	  	   android:phoneNumber="true"
+          	   android:hint="请输入手机号" 
+          	   android:background="@null"
+          	   style="@style/edittext_tyle"
+          	   android:paddingLeft="@dimen/pading_left"
+          	   android:maxLength="11"/>
+           
+           <LinearLayout 
+               android:layout_width="140dip"
+    	  	   android:layout_height="45dip"
+               android:layout_alignParentRight="true"
+               >
+               
+               <View
+                   android:layout_width="1dip"
+	    	   	   android:layout_height="fill_parent"
+                   android:background="@color/line_view_color"
+                   />
+
+               <TextView
+                   android:id="@+id/btn_getCode"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:gravity="center"
+                   android:text="点击获取验证码"
+                   android:textColor="@color/textcolor1"
+                   android:textSize="@dimen/tvsize16" />
+
+           </LinearLayout>
+       </RelativeLayout>
+         <View
+                   android:layout_width="fill_parent"
+	    	   	   android:layout_height="1dip"
+                   android:background="@color/line_view_color"
+                   />
+       <RelativeLayout 
+           android:layout_width="match_parent"
+    	   android:layout_height="45dip"
+    	   android:background="@color/background_white"
+           >
+           
+           	 <EditText
+               android:id="@+id/master_code"
+               android:layout_width="fill_parent"
+    	  	   android:layout_height="fill_parent"
+          	   android:hint="请输入验证码" 
+          	   android:background="@null"
+          	   style="@style/edittext_tyle"
+          	   android:paddingLeft="@dimen/pading_left"
+          	    android:layout_centerInParent="true"
+               />
+       </RelativeLayout>
+      		  <View
+                   android:layout_width="fill_parent"
+	    	   	   android:layout_height="1dip"
+                   android:background="@color/line_view_color"
+                   />
+        <RelativeLayout 
+           android:layout_width="match_parent"
+    	   android:layout_height="45dip"
+    	   android:background="@color/background_white"
+           >
+           
+           	 <EditText
+               android:id="@+id/request_code"
+               android:layout_width="fill_parent"
+    	  	   android:layout_height="fill_parent"
+    	  	   style="@style/edittext_tyle"
+          	   android:hint="请输入邀请码" 
+          	   android:background="@null"
+          	   android:maxLength="6"
+          	   android:paddingLeft="@dimen/pading_left"
+          	   android:layout_centerInParent="true"
+               />
+       </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_marginTop="@dimen/regist_margintop"
+        >
+        
+        <TextView 
+            android:layout_width="match_parent"
+    	 	android:layout_height="wrap_content"
+    	 	android:text="邀请码为必填项，免费领取邀请码  QQ群：424173672"
+    	 	android:layout_marginTop="@dimen/margin_top"
+    	 	android:paddingLeft="@dimen/pading_left"
+    	 	android:textSize="@dimen/tvsize13"
+            />
+        
+        <LinearLayout 
+           android:layout_width="match_parent"
+    	   android:layout_height="wrap_content"
+    	   android:orientation="horizontal"
+    	   android:layout_marginTop="@dimen/margin_top"
+    	    android:paddingLeft="@dimen/pading_left"
+           >
+           
+           <ImageView 
+               android:id="@+id/check_xieyi"
+               android:layout_width="wrap_content"
+    	  	   android:layout_height="wrap_content"
+    	  	   android:src="@drawable/btn_xieyi"
+    	  	   android:layout_gravity="center_vertical"
+               />
+           
+           <TextView 
+            android:layout_width="wrap_content"
+    	 	android:layout_height="wrap_content"
+    	 	android:text="我已阅读并同意"
+    	 	android:paddingLeft="5dip"
+    	 	android:textSize="@dimen/tvsize13"
+            />
+           
+           	<TextView
+           	  android:id="@+id/car_protocol" 
+	          android:layout_width="wrap_content"
+	    	  android:layout_height="wrap_content"
+	    	  android:text="《车大师协议》"
+	    	  android:textSize="@dimen/tvsize13"
+	    	  android:textColor="@color/blue_qian"
+	          />
+       	</LinearLayout>
+        
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btnNext" 
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="下一步，请填写信息"
+        android:layout_marginTop="@dimen/btn_margin_top"
+        android:background="@drawable/submit_button"
+        android:textSize="@dimen/tvsize18"
+        />
+    
+        <LinearLayout 
+           android:id="@+id/getVoiceCode"
+           android:layout_width="match_parent"
+    	   android:layout_height="wrap_content"
+    	   android:orientation="horizontal"
+    	   android:layout_marginTop="@dimen/margin_top2"
+    	    android:paddingLeft="@dimen/pading_left"
+    	    android:gravity="center_horizontal"
+    	    android:visibility="gone"
+           >
+           
+           <TextView 
+            android:layout_width="wrap_content"
+    	 	android:layout_height="wrap_content"
+    	 	android:text="收不到验证码？点击获取"
+    	 	android:textColor="@color/textcolor1"
+            />
+           
+           	<TextView
+           	  android:id="@+id/voice_show_text" 
+	          android:layout_width="wrap_content"
+	    	  android:layout_height="wrap_content"
+	    	  android:text="语音验证码"
+	    	  android:textColor="@color/blue_miao"
+	          />
+       	</LinearLayout>
+       	
+      <TextView 
+    	     android:id="@+id/voiceCodeShow"
+    	     android:layout_width="match_parent"
+    	     android:layout_height="wrap_content"
+    	     android:text="获取中...60S"
+    	     android:gravity="center"
+    	     android:textColor="@color/blue_miao"
+    	     android:visibility="gone"
+    	    />  
+    
+</LinearLayout>
